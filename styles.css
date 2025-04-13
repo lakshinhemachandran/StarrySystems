@@ -73,6 +73,10 @@
         text-align: center;
         margin-top: 20px;
       }
+      .support-link {
+        text-align: center;
+        margin-top: 20px;
+      }
   
       /* Responsive Design */
       @media (max-width: 768px) {
