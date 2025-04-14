@@ -303,3 +303,8 @@ transition: background-color 0.3s;
 form button:hover {
 background-color: #367bd4;
 }
+.links {
+  display: flex;
+  justify-content: center; /* horizontal */
+  height: 10vh;
+}
