@@ -1,313 +1,305 @@
-    /* General Reset */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-  
-      /* Main Container */
-      #ad-container {
-        text-align: center;
-        padding: 20px;
-        margin: 0 auto;
-        max-width: 1900px; /* Limit max width */
-      }
-  
-      /* Responsive Ad Image */
-      #ad-image {
-        width: 100%;
-        max-width: 80%; /* Limits image to 80% of the container's width */
-        height: auto;
-        margin: 0 auto;
-        display: block;
-      }
-  
-<<<<<<< HEAD
-=======
-      /* Links & Buttons */
-      a {
-        text-decoration: none;
-        color: black;
-      }
-  
-      a:hover {
-        color: rgb(0, 138, 224);
-      }
-  
-      /* Footer Section */
-      footer {
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-        font-size: 14px;
-      }
-  
-      footer a {
-        color: #fff;
-        text-decoration: none;
-      }
-  
-      footer a:hover {
-        color: rgb(0, 138, 224);
-      }
-  
-      /* Typing SVG Container */
-      .typing-svg-container {
-        text-align: center;
-        margin-bottom: 40px;
-      }
-  
-      .discord-link {
-        text-align: center;
-        margin-top: 20px;
-      }
-      .support-link {
-        text-align: center;
-        margin-top: 20px;
-      }
-     .docs-link {
-        text-align: center;
-        margin-top: 20px;
-      }
-    .github-link {
-        text-align: center;
-        margin-top: 20px;
-      }
-  
->>>>>>> 4e9470cb6db002b7cacce5ab33c16e7a0a8a98bf
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        body {
-          font-size: 14px;
-        }
-  
-        #ad-image {
-          max-width: 100%;
-        }
-      }
-          /* The Modal (background) */
-    .popup {
-        display: none; 
-        position: fixed; 
-        z-index: 1; 
-        left: 0;
-        top: 0;
-        width: 100%; 
-        height: 100%; 
-        overflow: auto; 
-        background-color: rgb(0,0,0); 
-        background-color: rgba(0,0,0,0.4); 
-    }
-
-    /* Modal Content */
-    .popup-content {
-        background-color: #fefefe;
-        margin: 15% auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
-        max-width: 600px;
-        border-radius: 10px;
-    }
-
-    /* The Close Button */
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close:hover,
-    .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
-    }
-<<<<<<< HEAD
-    .logo {
-      height: 150px;
-      display: block;
-      margin: auto;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      color: white;
-      text-align: center;
-
-    }
-    body {
-      background-color: #111111 !important;
-      font-family: 'Fira Code', monospace;
-  }
-  h2 {
-    color: #c0c0c0;
+   /* General Reset */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  h3 {
-    color: #ffd700; 
+
+  /* Main Container */
+  #ad-container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1900px; /* Limit max width */
   }
-  p {
-    color: #f4f4f4; 
-    line-height: 1.6;
+
+  /* Responsive Ad Image */
+  #ad-image {
+    width: 100%;
+    max-width: 80%; /* Limits image to 80% of the container's width */
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
+  /* Links & Buttons */
   a {
-    color: #1e90ff; /* Electric blue for links */
-    text-decoration: none; /* No underline by default */
+    text-decoration: none;
+    color: black;
   }
-  
+
   a:hover {
-    color: #ffd700; /* Gold on hover for a nice effect */
-    text-decoration: underline;
+    color: rgb(0, 138, 224);
   }
-  button {
-    background-color: #ffd700; /* Gold background for buttons */
-    color: #111111; /* Dark text for contrast */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px; /* Slight rounding for modern look */
-  }
-  
-  button:hover {
-    background-color: #c0c0c0; /* Silver hover effect */
-  }
+
+  /* Footer Section */
   footer {
-    background-color: #1a1a1a; /* Slightly lighter than the main background */
-    color: #ffffff;
-    padding: 20px 0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: rgb(0, 138, 224);
+  }
+
+  /* Typing SVG Container */
+  .typing-svg-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .discord-link {
     text-align: center;
     margin-top: 20px;
   }
-  
-  footer p {
-    color: #f4f4f4; /* Light gray text for footer paragraphs */
-  }
-  .center {
+  .support-link {
     text-align: center;
+    margin-top: 20px;
   }
-  .container {
-    display: block;
-    background-color: #2c2a2a;
-    border-radius: 5px;
-    height: auto;
-    width: 950px;
-    margin: auto;
-    margin-top: 40px;
+ .docs-link {
+    text-align: center;
+    margin-top: 20px;
   }
-  .container > p {
-    display: block;
-    margin-top: 5px;
-  }
-  .container > h3, h4 {
-    margin-left: 10px;
-  }
-  .container > .p1 {
-    display: inline-flex;
-    margin-bottom: 5px;
-  }
-  .container > .p2 {
-    display: inline-flex;
-  }
-  .team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .discord-widget {
-    background-color: #2f3136;
-    border: 2px solid #7289da;
-    border-radius: 10px;
-    padding: 20px;
-    width: calc(50% - 20px); /* Two widgets per row with spacing */
-    box-sizing: border-box;
-  }
-  
-  @media (max-width: 600px) {
-    .discord-widget {
-      width: 100%; /* Stack on small screens */
-    }
-  }
-  
-  .widget-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .discord-icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.github-link {
+    text-align: center;
+    margin-top: 20px;
   }
 
-  form {
-    max-width: 500px;
-    margin: 30px auto;
-    background-color: #111;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
-    color: white;
-    font-family: 'Segoe UI', sans-serif;
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    #ad-image {
+      max-width: 100%;
+    }
   }
-  
-  form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #ddd;
-  }
-  
-  form input,
-  form select,
-  form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 2px solid #222;
-    border-radius: 8px;
-    background-color: #1c1c1c;
-    color: #fff;
-    font-size: 16px;
-    transition: border 0.3s;
-  }
-  
-  form input:focus,
-  form select:focus,
-  form textarea:focus {
-    outline: none;
-    border-color: #4a90e2;
-    background-color: #252525;
-  }
-  
-  form button {
-    width: 100%;
-    background-color: #4a90e2;
-    color: white;
-    border: none;
-    padding: 14px 0;
-    font-size: 16px;
-    font-weight: bold;
+      /* The Modal (background) */
+.popup {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
     border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  form button:hover {
-    background-color: #367bd4;
-  }
-  
-=======
->>>>>>> 4e9470cb6db002b7cacce5ab33c16e7a0a8a98bf
+}
+.logo {
+  height: 150px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+
+}
+body {
+  background-color: #111111 !important;
+  font-family: 'Fira Code', monospace;
+}
+h2 {
+color: #c0c0c0;
+}
+
+h3 {
+color: #ffd700; 
+}
+p {
+color: #f4f4f4; 
+line-height: 1.6;
+}
+a {
+color: #1e90ff; /* Electric blue for links */
+text-decoration: none; /* No underline by default */
+}
+
+a:hover {
+color: #ffd700; /* Gold on hover for a nice effect */
+text-decoration: underline;
+}
+button {
+background-color: #ffd700; /* Gold background for buttons */
+color: #111111; /* Dark text for contrast */
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px; /* Slight rounding for modern look */
+}
+
+button:hover {
+background-color: #c0c0c0; /* Silver hover effect */
+}
+footer {
+background-color: #1a1a1a; /* Slightly lighter than the main background */
+color: #ffffff;
+padding: 20px 0;
+text-align: center;
+margin-top: 20px;
+}
+
+footer p {
+color: #f4f4f4; /* Light gray text for footer paragraphs */
+}
+.center {
+text-align: center;
+}
+.container {
+display: block;
+background-color: #2c2a2a;
+border-radius: 5px;
+height: auto;
+width: 950px;
+margin: auto;
+margin-top: 40px;
+}
+.container > p {
+display: block;
+margin-top: 5px;
+}
+.container > h3, h4 {
+margin-left: 10px;
+}
+.container > .p1 {
+display: inline-flex;
+margin-bottom: 5px;
+}
+.container > .p2 {
+display: inline-flex;
+}
+.team {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.discord-widget {
+background-color: #2f3136;
+border: 2px solid #7289da;
+border-radius: 10px;
+padding: 20px;
+width: calc(50% - 20px); /* Two widgets per row with spacing */
+box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+.discord-widget {
+  width: 100%; /* Stack on small screens */
+}
+}
+
+.widget-header {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.discord-icon {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+form {
+max-width: 500px;
+margin: 30px auto;
+background-color: #111;
+padding: 30px;
+border-radius: 16px;
+box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+color: white;
+font-family: 'Segoe UI', sans-serif;
+}
+
+form h2 {
+text-align: center;
+margin-bottom: 20px;
+color: #fff;
+}
+
+form label {
+display: block;
+margin-bottom: 8px;
+font-weight: 600;
+color: #ddd;
+}
+
+form input,
+form select,
+form textarea {
+width: 100%;
+padding: 12px;
+margin-bottom: 20px;
+border: 2px solid #222;
+border-radius: 8px;
+background-color: #1c1c1c;
+color: #fff;
+font-size: 16px;
+transition: border 0.3s;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+outline: none;
+border-color: #4a90e2;
+background-color: #252525;
+}
+
+form button {
+width: 100%;
+background-color: #4a90e2;
+color: white;
+border: none;
+padding: 14px 0;
+font-size: 16px;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+form button:hover {
+background-color: #367bd4;
+}

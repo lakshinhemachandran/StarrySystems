@@ -1,113 +1,126 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="logo.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="StarrySystemsDevelopers">
-  <meta name="description" content="Starry Systems Support Is Where You Can Get Support From Our Staff">
-  <meta name="keywords" content="HTML, CSS, JavaScript, Sh, Toml, Coding, Dev, Thanks">
-  <title>Starry Systems Thank You</title>
+  <meta name="author" content="StarrySystemsDevelopers" />
+  <meta name="description" content="Thank You from Starry Systems" />
+  <meta name="keywords" content="Starry Systems, Thank You, Support, Developers" />
+  <title>Thank You | Starry Systems</title>
+  <link rel="icon" href="logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
   <style>
-    /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --accent: #008ae0;
+      --background: #0e0e0e;
+      --text: #ffffff;
+      --card: #1a1a1a;
     }
 
     body {
-      color: rgb(0, 138, 224);
+      background: var(--background);
+      color: var(--text);
       font-family: 'Fira Code', monospace;
-      background-color: #121212;
-      color: #fff;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 3rem 2rem;
+      max-width: 600px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 138, 224, 0.2);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      animation: popUp 0.8s ease-in-out;
+    }
+
+    p {
+      font-size: 1.1rem;
       line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 2rem;
     }
 
-    h1, p {
-      text-align: center;
-      font-family: 'Fira Code', monospace;
-      color: rgb(0, 138, 224);
-    }
-
-    /* Main Container */
-    #ad-container {
-      text-align: center;
-      padding: 20px;
-      margin: 0 auto;
-      max-width: 1900px; /* Limit max width */
-    }
-
-    /* Responsive Ad Image */
-    #ad-image {
-      width: 100%;
-      max-width: 80%; /* Limits image to 80% of the container's width */
-      height: auto;
-      margin: 0 auto;
-      display: block;
-    }
-
-    /* Links & Buttons */
-    a {
-      text-decoration: none;
+    a.button {
+      background-color: var(--accent);
       color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 0 12px rgba(0, 138, 224, 0.4);
     }
 
-    a:hover {
-      color: rgb(0, 138, 224);
+    a.button:hover {
+      background-color: #0072b8;
     }
 
-    /* Footer Section */
     footer {
+      margin-top: 2rem;
       text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-      font-size: 14px;
+      font-size: 0.8rem;
+      color: #888;
     }
 
-    footer a {
-      color: #fff;
-      text-decoration: none;
+    @keyframes popUp {
+      0% {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
 
-    footer a:hover {
-      color: rgb(0, 138, 224);
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
-    /* Typing SVG Container */
-    .typing-svg-container {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .discord-link {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-      body {
-        font-size: 14px;
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 1.5rem;
       }
 
-      #ad-image {
-        max-width: 100%;
+      h1 {
+        font-size: 2rem;
       }
     }
   </style>
+</head>
 <body>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=1D2BF7&width=435&lines=Thank+You!" alt="Typing SVG" /></a>
-  <section id="ad-container">
-    <a id="ad-link" href="#" target="_blank">
-        <img id="ad-image" src="" width="1980px" height="200px">
-    </a>
-    <p id="ad-text"></p>
-</section>
+  <div class="container">
+    <h1>Thank You!</h1>
+    <p>Your support means everything to us. We at <strong>Starry Systems</strong> are beyond grateful for your trust and engagement. You're amazing 🚀</p>
+    <a href="https://quantumdev.cc" class="button">Back to Home</a>
+  </div>
 
-<script>
-    const adsUrl = "https://script.google.com/macros/s/AKfycby90aBPplIVpVRPnRbMYmhe1ynCREj-75RBjt46fyjWL7zsT0BjwARRoD3ei5dU-YgHKg/exec";
-</script>
-
-<script src="https://quantumdev.cc/ads/script.js"></script>
+  <footer>
+    &copy; 2025 Starry Systems. All rights reserved.
+  </footer>
 </body>
+</html>
+
