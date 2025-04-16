@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="StarrySystemsDevelopers">
+  <meta name="description" content="Starry Systems Is A Tech Based Company">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Sh, Toml, Coding, Dev">
+  <title>Starry Systems</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="container">
+<img class="logo" src="logo.png">
+<h1> Starry Systems </h1>
+<h2 class="center"> Developers of Tomorrow </h2>
+<p class="center"> At Starry Systems, we are dedicated to delivering an unparalleled web experience. Our team crafts innovative and visionary solutions that push the boundaries of technology. As a dynamic under-18 community, we specialize in creating cutting-edge products designed to shape the future. With a passion for excellence, we develop solutions that not only stand out but lead the way in the digital era.
+</p>
+<div class="links">
+  <!-- Discord Icon Link -->
+  <div class="discord-link">
+    <a href="https://discord.gg/MdC5pMzHEV" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png" alt="Discord">
+    </a>
+  </div>
+  <!-- Support Icon Link -->
+  <div class="support-link">
+    <a href="support.html" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/support.png" alt="Support">
+    </a>
+  </div>
+  <!-- Docs Icon Link -->
+    <div class="docs-link">
+    <a href="docs.html" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/book.png" alt="Book">
+    </a>
+  </div>
+    <!-- Github Icon Link -->
+    <div class="github-link">
+    <a href="https://github.com/Starry-Systems" target="_blank">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="Github">
+    </a>
+  </div>
+  </div>
+<h3> Projects: </h3>
+<h4 class="p1" style="color: white;"> Space Cat Games </h4>
+<p class="p1"> A website with the best games of 2025. The best gaming site a kid could ask for. </p>
+
+<h3 style="margin-bottom: 5px;"> Our Team: </h3>
+<div class="team">
+<div class="discord-widget">
+  <div class="widget-header">
+      <img src="https://quantum.is-a.dev/images/quantum.png" alt="QuantumDev's Profile" class="discord-icon">
+      <h3>QuantumDev - Owner</h3>
+  </div>
+  <p>Discord Profile: <a href="https://discord.com/users/1348440369733439629" target="_blank">Visit Profile</a></p>
+  <p>Website: <a href="https://quantum.is-a.dev" target="_blank">https://quantum.is-a.dev</a></p>
+</div>
+<div class="discord-widget">
+  <div class="widget-header">
+      <img src="https://cdn.discordapp.com/avatars/1335719497293758477/aed4b684bd5e7945dd52b1620bd104c3.webp" alt="pfp" class="discord-icon">
+      <h3>Noah - Owner</h3>
+  </div>
+  <p>Discord Profile: <a href="https://discord.com/users/1335719497293758477" target="_blank">Visit Profile</a></p>
+  <p>Website: <a href="https://guns.lol/noahcode" target="_blank">https://guns.lol/noahcode</a></p>
+</div>
+<div class="discord-widget">
+  <div class="widget-header">
+      <img src="https://cdn.discordapp.com/avatars/913798931949965362/431425b2e5c3e2b42b061924ffd90004.webp" alt="pfp" class="discord-icon">
+      <h3>MeowCat - Owner</h3>
+  </div>
+  <p>Discord Profile: <a href="https://discord.com/users/913798931949965362" target="_blank">Visit Profile</a></p>
+  <p>Website: <a href="https://meowcat.ct.ws" target="_blank">https://meowcat.ct.ws</a></p>
+</div>
+<div class="discord-widget">
+  <div class="widget-header">
+      <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/468b83d2-8307-4671-ad98-a555817be1ed.__CR0,0,800,600_PT0_SX800_V1___.png" alt="pfp" class="discord-icon">
+      <h3>Vinnie - Owner</h3>
+  </div>
+  <p>Discord Profile: <a href="https://discord.com/users/1060276058508759070" target="_blank">Visit Profile</a></p>
+</div>
+<div style="margin-bottom: 50px;" class="discord-widget">
+  <div class="widget-header">
+      <img src="https://cdn.discordapp.com/avatars/1157819200740532344/650064815aff191a6f9fa78bd56407ad.png?size=1024" alt="pfp" class="discord-icon">
+      <h3>[BIG SHOT] - Director of Developer Operations</h3>
+  </div>
+  <p>Website: <a href="https://emanuelleon.onrender.com/" target="_blank">https://emanuelleon.onrender.com/</a></p>
+  <p>Discord Profile: <a href="https://discord.com/users/1157819200740532344" target="_blank">Visit Profile</a></p>
+</div>
+</div>
+</div>
+</div>
+  <script>
+    const adsUrl = "https://script.google.com/macros/s/AKfycby90aBPplIVpVRPnRbMYmhe1ynCREj-75RBjt46fyjWL7zsT0BjwARRoD3ei5dU-YgHKg/exec";
+  </script>
+<footer>
+<section id="ad-container">
+    <a id="ad-link" href="#" target="_blank">
+        <img id="ad-image" src="" width="1980px" height="200px">
+    </a>
+    <p id="ad-text"></p>
+</section>
+
+<script>
+    const adsUrl = "https://script.google.com/macros/s/AKfycby90aBPplIVpVRPnRbMYmhe1ynCREj-75RBjt46fyjWL7zsT0BjwARRoD3ei5dU-YgHKg/exec";
+</script>
+
+<script src="https://quantumdev.cc/ads/script.js"></script>
+  
+
+<p style="text-decoration: underline;" id="legalese">Legalese</p>
+
+<!-- Popup -->
+<div id="legalPopup" class="popup">
+    <div style="background-color: black;" class="popup-content">
+        <span class="close">&times;</span>
+        <div style=" color: black; " id="popupContent">
+          <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://starrysystems.pages.dev">https://starrysystems.pages.dev</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Starry-Systems">Starry Systems</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+          <a href="//www.dmca.com/Protection/Status.aspx?ID=865db689-5e03-4704-9d26-fa1c0da5f0be" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-10.png?ID=865db689-5e03-4704-9d26-fa1c0da5f0be"  alt="DMCA.com Protection Status" /></a>  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+       <p> &copy; Starry Systems</p>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 5px 10px; display: flex; align-items: center; justify-content: center; max-width: fit-content; font-size: 12px; margin: 10px auto; flex-direction: row;">
+          <img src="https://quantumdev.cc/images/quantum.png" alt="QuantumDev Logo" style="height: 30px; margin-right: 8px; border-radius: 4px;">
+          <div style="display: flex; flex-direction: column;">
+            <p style="margin: 0; font-weight: 500; opacity: 0.6;">THIS WEBSITE IS BUILT BY QUANTUMDEV</p>
+            <p style="margin: 0; font-size: 10px; opacity: 0.5; text-align: center;">quantumdev.cc</p>
+          </div>
+        </div>
+        
+    </div>
+</div>
+</footer>
+<script>
+    // Get the modal
+    var modal = document.getElementById("legalPopup");
+
+    // Get the button that opens the modal
+    var legalese = document.getElementById("legalese");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the "Legalese" paragraph, open the modal
+    legalese.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
+</div>
+</div>
+
+</body>
+</html>
