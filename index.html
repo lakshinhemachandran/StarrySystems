@@ -1,150 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <link rel="icon" href="logo.png">
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="StarrySystemsDevelopers">
-  <meta name="description" content="Starry Systems Is A Tech Based Company">
-  <meta name="keywords" content="HTML, CSS, JavaScript, Sh, Toml, Coding, Dev">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Starry Systems</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="https://chat.ordemio.com/lib/w.js" assistant-id="a3d629dc-ee9e-4419-a399-7b336260127c" async></script>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <meta name="description" content="Starry Systems - The Developers of Tomorrow - Creating Since 2024" />
+  <meta property="og:title" content="Starry Systems" />
+  <meta property="og:description" content="Starry Systems - The Developers of Tomorrow - Creating Since 2024" />
+  <meta property="og:image" content="https://starrysystems.quantumdev.cc/logo.png" />
+  <meta property="og:url" content="https://starrysystems.quantumdev.cc" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Starry Systems" />
+  <meta name="twitter:description" content="Starry Systems - The Developers of Tomorrow - Creating Since 2024" />
+  <meta name="twitter:image" content="https://starrysystems.quantumdev.cc/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --carbonBlack: #121212;
+      --carbonGray: #222222;
+      --carbonLightGray: #9CA3AF; /* Tailwind gray-400 */
+      --purplishBlue: #5A67D8;
+    }
+    body {
+      background-color: var(--carbonBlack);
+      color: white;
+      font-family: 'Fira Code', monospace;
+      margin: 0;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a:focus-visible {
+      outline: 2px solid var(--purplishBlue);
+      outline-offset: 2px;
+    }
+    /* Animation for subtle spin */
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+    /* Animation for pulse */
+    @keyframes pulse-tech {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+    .pulse-tech {
+      animation: pulse-tech 3s ease-in-out infinite;
+    }
+  </style>
 </head>
-<body>
-<div class="container">
-<img class="logo" src="logo.png">
-<h1> Starry Systems </h1>
-<h2 class="center"> Developers of Tomorrow </h2>
-<p class="center"> At Starry Systems, we are dedicated to delivering an unparalleled web experience. Our team crafts innovative and visionary solutions that push the boundaries of technology. As a dynamic under-18 community, we specialize in creating cutting-edge products designed to shape the future. With a passion for excellence, we develop solutions that not only stand out but lead the way in the digital era.
-</p>
-<div class="links">
-  <!-- Discord Icon Link -->
-  <div class="discord-link">
-    <a href="https://discord.gg/MdC5pMzHEV" target="_blank">
-      <img src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png" alt="Discord">
-    </a>
-  </div>
-  <script src="//code.tidio.co/xzgrwkarssumojm1j6sb8tbbeqohn7nm.js" async></script>
-  <!-- Docs Icon Link -->
-    <div class="docs-link">
-    <a href="docs.html" target="_blank">
-      <img src="https://img.icons8.com/ios-filled/50/ffffff/book.png" alt="Book">
-    </a>
-  </div>
-    <!-- Github Icon Link -->
-    <div class="github-link">
-    <a href="https://github.com/Starry-Systems" target="_blank">
-      <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="Github">
-    </a>
-  </div>
-  </div>
-<h3> Projects: </h3>
-<h4 class="p1" style="color: white;"> Space Cat Games </h4>
-<p class="p1"> A website with the best games of 2025. The best gaming site a kid could ask for. </p>
+<body class="antialiased">
 
-<h3 style="margin-bottom: 5px;"> Our Team: </h3>
-<div class="team">
-<div class="discord-widget">
-  <div class="widget-header">
-      <img src="https://quantum.is-a.dev/images/quantum.png" alt="QuantumDev's Profile" class="discord-icon">
-      <h3>QuantumDev - Owner</h3>
-  </div>
-  <p>Discord Profile: <a href="https://discord.com/users/1348440369733439629" target="_blank">Visit Profile</a></p>
-  <p>Website: <a href="https://quantum.is-a.dev" target="_blank">https://quantum.is-a.dev</a></p>
-</div>
-<div class="discord-widget">
-  <div class="widget-header">
-      <img src="https://cdn.discordapp.com/avatars/1335719497293758477/aed4b684bd5e7945dd52b1620bd104c3.webp" alt="pfp" class="discord-icon">
-      <h3>Noah - Owner</h3>
-  </div>
-  <p>Discord Profile: <a href="https://discord.com/users/1335719497293758477" target="_blank">Visit Profile</a></p>
-  <p>Website: <a href="https://guns.lol/noahcode" target="_blank">https://guns.lol/noahcode</a></p>
-</div>
-<div class="discord-widget">
-  <div class="widget-header">
-      <img src="https://cdn.discordapp.com/avatars/913798931949965362/431425b2e5c3e2b42b061924ffd90004.webp" alt="pfp" class="discord-icon">
-      <h3>MeowCat - Owner</h3>
-  </div>
-  <p>Discord Profile: <a href="https://discord.com/users/913798931949965362" target="_blank">Visit Profile</a></p>
-  <p>Website: <a href="https://meowcat.ct.ws" target="_blank">https://meowcat.ct.ws</a></p>
-</div>
-<div style="margin-bottom: 50px;" class="discord-widget">
-  <div class="widget-header">
-      <img src="https://cdn.discordapp.com/avatars/1157819200740532344/650064815aff191a6f9fa78bd56407ad.png?size=1024" alt="pfp" class="discord-icon">
-      <h3>[BIG SHOT] - Owner</h3>
-  </div>
-  <p>Website: <a href="https://emanuelleon.onrender.com/" target="_blank">https://emanuelleon.onrender.com/</a></p>
-  <p>Discord Profile: <a href="https://discord.com/users/1157819200740532344" target="_blank">Visit Profile</a></p>
-</div>
-</div>
-<iframe src="https://discord.com/widget?id=1348773043287363604&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-</div>
-</div>
-  <script>
-    const adsUrl = "https://script.google.com/macros/s/AKfycby90aBPplIVpVRPnRbMYmhe1ynCREj-75RBjt46fyjWL7zsT0BjwARRoD3ei5dU-YgHKg/exec";
-  </script>
-<footer>
-<section id="ad-container">
-    <a id="ad-link" href="#" target="_blank">
-        <img id="ad-image" src="" width="1980px" height="200px">
-    </a>
-    <p id="ad-text"></p>
-</section>
+  <section class="max-w-7xl mx-auto px-8 py-20 sm:py-28 lg:py-36">
 
-<script>
-    const adsUrl = "https://script.google.com/macros/s/AKfycby90aBPplIVpVRPnRbMYmhe1ynCREj-75RBjt46fyjWL7zsT0BjwARRoD3ei5dU-YgHKg/exec";
-</script>
+    <!-- Header -->
+    <header class="flex items-center justify-between mb-24">
+      <img src="logo.png" alt="Starry Systems Logo" class="h-16 w-auto" />
+      <nav class="space-x-12 text-base font-semibold text-gray-400 tracking-wide uppercase select-none">
+        <a href="https://starrysystems.quantumdev.cc/team/" class="hover:text-purplishBlue transition-colors duration-300">The Team</a>
+        <a href="https://starrysystems.quantumdev.cc/support/" class="hover:text-purplishBlue transition-colors duration-300">Support</a>
+      </nav>
+    </header>
 
-<script src="https://quantumdev.cc/ads/script.js"></script>
-  
+    <!-- Main Content -->
+    <div class="flex flex-col lg:flex-row lg:items-start gap-20 lg:gap-40">
 
-<p style="text-decoration: underline;" id="legalese">Legalese</p>
+      <!-- Left Column -->
+      <div class="flex-1 max-w-3xl mx-auto lg:mx-0">
+        <h1 class="text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight leading-tight mb-8 text-white">
+          The Developers of <span class="text-purplishBlue">Tomorrow</span>
+        </h1>
+        <p class="text-gray-400 text-xl sm:text-2xl leading-relaxed mb-16 max-w-xl">
+          A small studio creating the wonders of the new world.
+        </p>
 
-<!-- Popup -->
-<div id="legalPopup" class="popup">
-    <div style="background-color: black;" class="popup-content">
-        <span class="close">&times;</span>
-        <div style=" color: black; " id="popupContent">
-          <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://starrysystems.pages.dev">https://starrysystems.pages.dev</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Starry-Systems">Starry Systems</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
-          <a href="//www.dmca.com/Protection/Status.aspx?ID=865db689-5e03-4704-9d26-fa1c0da5f0be" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-10.png?ID=865db689-5e03-4704-9d26-fa1c0da5f0be"  alt="DMCA.com Protection Status" /></a>  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-       <p> &copy; Starry Systems</p>
+        <!-- Main Project -->
+        <section class="mb-20">
+          <h2 class="text-4xl font-semibold mb-10 tracking-wide uppercase">Main Project</h2>
+          <article class="bg-carbonGray p-10 rounded-xl shadow-lg border border-transparent hover:border-purplishBlue transition-all duration-300 max-w-xl">
+            <h3 class="text-3xl font-semibold mb-5 text-white">Bevel Browser</h3>
+            <p class="text-gray-300 mb-8 leading-relaxed text-lg">
+              Our flagship project — <strong>Bevel Browser</strong> is currently a <em>privacy-first search engine only</em>. It provides fast, relevant results without tracking or ads.  
+              Full browsing and downloading features are coming soon.
+            </p>
+            <a href="https://bevel.netlify.app" target="_blank" rel="noopener" class="inline-block px-10 py-4 border border-purplishBlue text-purplishBlue font-semibold rounded-lg hover:bg-purplishBlue hover:text-white transition-colors duration-300 text-lg">
+              Try Bevel Search
+            </a>
+          </article>
+        </section>
+
+        <!-- Other Projects -->
+        <section>
+          <h2 class="text-4xl font-semibold mb-12 tracking-wide uppercase">Other Projects</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-4xl">
+            <article class="bg-carbonGray p-8 rounded-lg shadow-md border border-transparent hover:border-purplishBlue transition-all duration-300">
+              <h3 class="text-2xl font-semibold mb-4 text-white">Sunset Pools</h3>
+              <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                Innovative ROBLOX pool gameplay - designed with kids in mind.
+              </p>
+
+            </article>
+
+            <article class="bg-carbonGray p-8 rounded-lg shadow-md border border-transparent hover:border-purplishBlue transition-all duration-300">
+              <h3 class="text-2xl font-semibold mb-4 text-white">Space Cat Games</h3>
+              <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                A modern gaming platform hosting exclusive indie titles and vibrant community.
+              </p>
+              <a href="https://spacecatgame.netlify.app/" target="_blank" rel="noopener" class="text-purplishBlue hover:underline font-medium transition text-lg">
+                Play Now &rarr;
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <!-- Discord Button -->
+        <div class="mt-24 text-center lg:text-left">
+          <a href="https://discord.gg/brceFM3HSE" target="_blank" rel="noopener" class="inline-block px-12 py-5 border border-purplishBlue text-purplishBlue font-semibold rounded-lg tracking-wide hover:bg-purplishBlue hover:text-white transition duration-300 text-lg">
+            Join our Discord
+          </a>
         </div>
-        <script src="https://quantumdev.cc/wm/script.js"></script>
-        
+      </div>
+
+      <!-- Right Column with Tech Shapes -->
+      <div class="hidden lg:flex flex-col items-center justify-start space-y-20 w-80 select-none" aria-hidden="true">
+
+        <!-- Hexagon Shape -->
+        <svg width="110" height="125" viewBox="0 0 96 110" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-purplishBlue stroke-current spin-slow">
+          <polygon points="48 0 92 27.5 92 82.5 48 110 4 82.5 4 27.5" stroke="currentColor" stroke-width="3" fill="none" />
+        </svg>
+
+        <!-- Circuit Line -->
+        <svg width="70" height="140" viewBox="0 0 60 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="stroke-current text-gray-600 pulse-tech">
+          <line x1="30" y1="0" x2="30" y2="120" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          <circle cx="30" cy="20" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+          <circle cx="30" cy="60" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+          <circle cx="30" cy="100" r="5" stroke="currentColor" stroke-width="2" fill="none"/>
+        </svg>
+
+        <!-- Dots Cluster -->
+        <svg width="85" height="85" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-purplishBlue fill-current pulse-tech">
+          <circle cx="18" cy="18" r="6" />
+          <circle cx="54" cy="18" r="4" />
+          <circle cx="36" cy="36" r="8" />
+          <circle cx="18" cy="54" r="5" />
+          <circle cx="54" cy="54" r="3" />
+        </svg>
+
+      </div>
+
     </div>
-</div>
-</footer>
-<script>
-    // Get the modal
-    var modal = document.getElementById("legalPopup");
 
-    // Get the button that opens the modal
-    var legalese = document.getElementById("legalese");
+  </section>
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 text-center text-gray-400 text-sm py-8 max-w-7xl mx-auto select-none">
+    <p class="mb-2">&copy; 2025 Starry Systems. All rights reserved.</p>
+    <div class="space-x-4">
+      <a href="https://starrysystems.quantumdev.cc/terms/" class="hover:text-purplishBlue transition duration-300">Terms and Conditions</a> |
+      <a href="https://starrysystems.quantumdev.cc/privacy" class="hover:text-purplishBlue transition duration-300">Privacy Policy</a>
+    </div>
+  </footer>
 
-    // When the user clicks the "Legalese" paragraph, open the modal
-    legalese.onclick = function() {
-        modal.style.display = "block";
+  <style>
+    :root {
+      --carbonBlack: #121212;
+      --carbonGray: #222222;
+      --purplishBlue: #5A67D8;
     }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
+    .text-purplishBlue {
+      color: var(--purplishBlue);
     }
-
-    // When the user clicks anywhere outside the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+    .border-purplishBlue {
+      border-color: var(--purplishBlue);
     }
-
-</script>
-</div>
-</div>
+    .hover\:text-purplishBlue:hover {
+      color: var(--purplishBlue);
+    }
+    .hover\:bg-purplishBlue:hover {
+      background-color: var(--purplishBlue);
+    }
+  </style>
 
 </body>
 </html>
