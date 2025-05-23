@@ -1,0 +1,6 @@
+name = "starrysystems"
+type = "javascript"
+
+account_id = "20817a209369d30d7fdff9ddf6c95127"
+workers_dev = true
+compatibility_date = "2024-04-12"
